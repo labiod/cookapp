@@ -3,6 +3,7 @@ package com.kgb.cooapp;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.View;
@@ -18,6 +19,12 @@ import com.kgb.cooapp.service.endpoint.UserEndPoint;
 
 import java.io.IOException;
 
+import io.reactivex.Observable;
+import io.reactivex.ObservableEmitter;
+import io.reactivex.ObservableOnSubscribe;
+import io.reactivex.Scheduler;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.schedulers.Schedulers;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -26,7 +33,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends Activity {
     public static final String TAG = MainActivity.class.getSimpleName();
-    private static final int RESULT_CODE = 100456;
+    public static final String AUTH_KEY = "auth_key";
+    public static final int RESULT_CODE = 100456;
     private static final String BASE_API_URL = "https://cookidoo.pl/vorwerkApiV2/";
 
     private String secureKey;
@@ -36,7 +44,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        secureKey = getResources().getString(R.string.auth_key);
+
+
         if (secureKey == null || secureKey.isEmpty()) {
             Intent intent = new Intent(this, LoginActivity.class);
 

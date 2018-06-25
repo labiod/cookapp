@@ -2,18 +2,6 @@
     <string name="app_name">CooApp</string>
     <string name="title_activity_login">Sign in</string>
 
-    <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
     <string name="auth_key">Bearer eyJhbGciOiJSUzI1NiJ9.eyJleHAiOjE1MjA5NTMzNzksInVzZXJfbmFtZSI6ImdhYnJpZWxhLmJldGxlakBnbWFpbC5jb20iLCJzdWIiOiI1MmFhMmUxNy05YjJlLTQwMGEtOWJjYS05NzBiZjI5NzA3YjIiLCJ1c2VyUGsiOjkwMjY3MjM0NDY3ODgsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJvbXNpZCI6IlFMTTNZUUlOSzJWSjMzTlAiLCJhdXRob3JpdGllcyI6WyJST0xFX1ZPUldFUktDVVNUT01FUkdST1VQIl0sInJpZCI6ImMwMGQwZDU1LTM1MzctNDFkMy1hNWZhLWEyMjllYWQ0YzA2ZSIsImNsaWVudGFwcHJvdmVkIjp0cnVlLCJqdGkiOiIwYjI0NjZlMi02MzY4LTQwZjAtYTUxYy00ZmYzZGMxZWQ3NTQiLCJjbGllbnRfaWQiOiJuZXR6a2Vybi1jbGllbnQtdjEiLCJ1c2VySW5mbyI6eyJmcmVlQ29sbGVjdGlvbnMiOjEsImhhc09sZEFwcCI6ZmFsc2UsImVtYWlsIjoiZ2FicmllbGEuYmV0bGVqQGdtYWlsLmNvbSIsImluaXRpYWxNYXJrZXQiOiJwbCIsImN1cnJlbnRNYXJrZXQiOiJwbCIsImZ1bGxuYW1lIjpudWxsfX0.KhR1qt-K3PhKsADJrR6qdgKwa62zSSEr-44lko34r9Sy3Hu_Szbh4gG5CirREQNhY4kMXi1hMpr-rETV0J1UyxHfRCn66neGzyHnXOxJk0uK79tFSIpNitqCssFGoGAmmvD49UWa3dkVZVfnkO7kTl2ijbKP5Dw_2XmdY1GdAfSh4m2J70_mNUnrOYNGzIMkncbAAFb80DLXjI-HsCaNBSuOekb_0xrtvKTpcva-y8r6gpgGHregldTZV5YiYNqnneBnV6znbTyS7Kj8IuioQzoLzGJx37OpwX91aN-8CYnPogOTUw8Em2oakrB0IXlqayE-tfCDwiB5EPaktPQxFA</string>
     <string name="show_endpoint_list">Show endpoint list</string>
     <string name="show_user_info">Show user info</string>
